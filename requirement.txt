@@ -1,7 +1,53 @@
-System(jetson nano)
+System Requirements Laptop (Training Environment)
+#CUDA Version: 11.8
 
-torch==2.3.1+cpu  
-torchvision==0.18.1+cpu  
-onnx==1.12.0  
-protobuf==5.27.3 
-numpy==1.24.4
+#cuDNN Version: 8.6
+
+#Python Version: 3.8.20
+
+#TensorFlow Version: Compatible with CUDA 11.8
+
+#ONNX: To export YOLOv5 model for Jetson Nano deployment
+
+Dependencies:
+
+    torch==1.12.1+cu11.6
+
+    torchvision==0.13.1+cu11.6
+
+    onnx==1.12.0
+
+    protobuf==5.27.3
+
+    numpy==1.24.4
+
+    opencv-python==4.5.1
+
+    matplotlib==3.5.1
+
+
+Jetson Nano (Deployment Environment)
+
+#JetPack: 4.6.1
+
+#CUDA Version: 10.2
+
+#cuDNN Version: 8.2
+
+#TensorRT Version: 8.2.1
+
+#Python Version: 3.6
+
+#OpenCV Version: 4.5.1
+
+Dependencies:
+
+    torch==2.3.1+cpu
+
+    torchvision==0.18.1+cpu
+
+    onnx==1.12.0
+
+    protobuf==5.27.3
+
+    numpy==1.24.4
